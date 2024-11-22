@@ -1,0 +1,55 @@
+
+  .gsap-slider-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  
+  
+  
+  .slider {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    perspective: 100px;
+  }
+  
+  .item {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: blue;
+    /*transition: all 0.6s ease; ⚠️ Never use 'all' and try to not use transtion when working with GSAP */
+  }
+  
+  .item[data-key="0"] {
+    background-color: pink;
+  }
+  
+  .item[data-key="1"] {
+    background-color: rgba(100, 255, 100, 1);
+  }
+  
+  .item[data-key="2"] {
+    background-color: rgba(100, 100, 255, 1);
+  }
+
+  /*
+
+          <div class="gsap-slider-animation">
+            <div class="slider">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+            </div>
+        </div>
+
+*/

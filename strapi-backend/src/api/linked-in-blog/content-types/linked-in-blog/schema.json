@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "linked_in_blogs",
+  "info": {
+    "singularName": "linked-in-blog",
+    "pluralName": "linked-in-blogs",
+    "displayName": "LinkedInBlog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "intro": {
+      "type": "string"
+    },
+    "blog": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

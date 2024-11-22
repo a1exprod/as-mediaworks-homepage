@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Nova theme" content="width=device-width, initial-scale=1">
+
+
+
+        <!--external stylesheets-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <!--internal stylesheets-->
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/gsap/gsap-cardsSwapping.css">
+        <link rel="stylesheet" href="css/gsap/gsap-scrollTriggerParalax.css">
+        <!--external FontAwesome Stylesheet-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    
+    
+        <!--external GSAP JavaScript Animation Plugins-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+        <!--internal GSAP JavaScript Animation Imports-->
+        <script src="js/gsap/gsap-typewriter.js"></script>
+        <script src="js/gsap/gsap-cardsSwapping.js"></script>
+        <script src="js/gsap/gsap-scrollTriggerParalax.js"></script>
+
+
+
+        <!--internal Strapi JavaScript fetch datas-->
+        <script src="js/strapi-api/fetch-projects.js"></script>
+        <script src="js/strapi-api/fetch-featured.js"></script>
+        <script src="js/strapi-api/fetch-graphicsdesign.js"></script>
+        <script src="js/strapi-api/fetch-webdevelopment.js"></script>
+        <script src="js/strapi-api/fetch-blogs.js"></script>
+
+        
+
+        <link rel="shortcut icon" type="image/png" href="favicon/tabicon.png"/>
+        <title>Home</title>
+    </head>
+<!--#######################################################################################################################################-->
+    <body>
+
+    
+        <main class="hero-background">
+            <!-- Navigation================================================== -->
+            <div>
+                <img class="strips" src="assets/images/strips.png">
+            </div>
+            <div class="container">
+                <!-- Menu================================================== -->
+                <div class="header-container header">
+                    <a class="navbar-brand logo" href="#"> <img class="logo" src="assets/images/logo.svg"/> </a>
+                    <nav class="header-right">
+                        <a class="navbar-item active" href="">Home</a>
+                        <a class="navbar-item" href="html/projects.html">Projects</a>
+                        <a class="navbar-item" href="html/about-mediaworks.html">About MediaWorks</a>
+                        <a class="navbar-item" href="html/alexander-schnabl.html">Alexander Schnabl</a>
+                    </nav>
+                </div>
+                
+                <!-- Hero-Section================================================== -->
+                <header class="hero row">
+                    <div class="hero-right col-sm-6 col-sm-6">
+                        <h1 class="header-headline bold text"><span class="color-pale-orange">Design</span>
+                            <br>is where</span>
+                            <span class="color-pale-orange">technology</span>
+                            <span class="color-pale-orange">& art</span>
+                            break even<span class="color-pale-orange">.</span>
+                        </h1>
+
+                        <h3 class="header-running-text color-black">Alexander Schnabl</h3>
+                        <h3 class="gsap-typewriter header-running-text color-white">Mediaworks</h3>
+                    </div>
+
+                    <div class="col-sm-6 col-sm-6">
+                        <img class="ipad-screen img-responsive" alt="2smartphones" src="img/illustrations/opener-smartphone.png"/>
+                    </div>
+                </header><!--hero-->
+            </div> <!--container-->
+        </main><!--hero-background-->
+
+
+
+        <!--CONTENT================================================== -->
+
+
+
+
+
+        <section><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h2>My offerings</h2>
+            <h3>Webdevelopment & Design</h3>
+            <div class="titleGreathorned">
+                <p class="subheadline">
+                    Landingpages<span class="color-cyan"> | </span>
+                    Homepages<span class="color-cyan"> | </span>
+                    Portfolio Websites<span class="color-cyan"> | </span>
+                    Webapps<span class="color-cyan"> | </span>
+                    Content Management Systems<span class="color-cyan"> | </span>
+                    Corprate Websites<span class="color-cyan"> | </span>
+                    Microsites & Event Webpages
+                </p>
+                    
+            </div>
+            <button>read more about my offerings in the field of Webdevelopment & Design</button>
+            <button>contact me</button>
+
+        
+        
+            <aside class="cluster clusterGreat">
+                <div class="circle clusterPieces"></div>
+                <div class="owlHorned clusterPieces">
+                    <img class="scrollTriggerParalax" src="img/illustrations/webdevelopment.png" />
+                </div>
+                <img class="dotsBlue clusterPieces" src="https://www.micelistudios.com/sandbox/scrolltrigger/imgs/dots_blue_494x434.svg" />
+            </aside>
+        
+
+
+            <h3>Graphic Design</h3>
+            <div class="titleGreathorned">
+                <p class="subheadline">
+                    Brand Concept & Corporate Design<span class="color-cyan"> | </span>
+                    Print Design<span class="color-cyan"> | </span>
+                    Illustration Design<span class="color-cyan"> | </span>
+                    Logo & Icon Design<span class="color-cyan"> | </span>
+                    Screendesigns<span class="color-cyan"> | </span>
+                    3D Models<span class="color-cyan"> | </span>
+                    Presentation slides
+                </p>
+            </div>
+            <button>read more about my offerings in the field of Graphic Design</button>
+            <button>contact me</button>
+        
+
+
+            <aside class="cluster clusterBurrowing">
+                <img class="clusterPieces triangle" src="https://www.micelistudios.com/sandbox/scrolltrigger/imgs/triangle_448x446.svg">
+            
+                <div class="clusterPieces owlBurrowing"><img class="scrollTriggerParalax" src="img/illustrations/service-graphicdesign.png">
+
+                </div>
+            
+                <img class="clusterPieces dotsWhite" src="https://www.micelistudios.com/sandbox/scrolltrigger/imgs/dots_white_310x588.svg">
+            </aside>
+        </section>
+        
+
+
+
+
+        <section><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="hero-row">
+                <h2>Featured Projects</h2>
+
+                
+                <div id="featuredProjects-container" class="project-grid"></div>
+                
+            </div>
+        </section>
+
+
+
+
+
+        <section><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h2>About me - Alexander Schnabl</h2>
+            <div class="hero-row">
+                <div class="hero-right col-sm-6 col-sm-6">
+                    <p>
+                        <span class="numbers">21</span>
+                        <span class="numbers-description">years old</span>
+                    </p>
+                    <p>
+                        <span class="numbers">6</span>
+                        <span class="numbers-description">years of education and experiences</span>
+                    </p>
+                    <div class="social-media-icons">
+                        <a href="https://www.linkedin.com/in/alexander-schnabl-202a48235/" target="_blank" title="Lets connect on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank" title="Personal Portfolio Homepage"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/a1exprod" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                    
+                    </div>
+                </div>
+                <div class="hero-right col-sm-6 col-sm-6">
+                    <img id="alex" src="img/Alex-freigestellt.png" alt="alexander schnabl portrait">
+                </div>
+            </div>
+
+            <div class="hero-row">
+                <div class="hero-right col-sm-12 col-sm-12">
+                    <div class="titleGreathorned">
+                        <p class="short-text">
+                            I am a graduate of the IT-HTL Ybbs and have completed a five-year training programme in the field of media technology and information technologies. 
+                            My knowledgement and interests, which match my previous experience, are in the areas o media design and web development.
+                    </div>
+                    <button class="center">more informations about me</button>
+                    <br />
+                    <button class="center">write an email</button>
+                    <div class="spacer-screensize"></div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <aside><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h4>Contact me</h4>
+            <div class="contact-icons">
+                <a href="tel:+436502201053" title="mobile">
+                    <i class="fa-solid fa-mobile"></i>
+                    <br>+43 650 220 10 53
+                </a>
+
+                <a href="mailto:alexander.schnabl@outlook.com" target="_blank" title="write an email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <br>alexander.schnabl@outlook.com
+                </a>
+
+                <a href="https://www.google.com/maps?q=Melk" target="_blank" title="view location over google maps">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <br>3390 Melk, Lower Austria, (AT)
+                </a>
+            </div>
+        </aside>
+
+
+
+
+
+        <section><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h2>View my Articles</h2>
+            <h3>LinkedIn</h3>
+
+            <div id="blogs-container" class="blog-grid"></div>
+            <button class="center">read more and connect on LinkedIn</button>
+
+        </section>
+
+
+
+
+
+        <aside><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h4>I am a member of Creativehouse Melk</h4>
+            <img id="kreativhaus" src="img/logo/Kreativhaus-logo-full.png">
+            <a href="https://www.daskreativhaus.at/" target="_blank">
+                <button class="center">visit www.kreativhaus.at</button>
+            </a>
+            
+            <div class="spacer"></div>
+        </aside>
+
+        <aside>
+            <h2>Follow AS-MediaWorks on Social Media</h2>
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/alexander-schnabl-202a48235/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                    <br>LinkedIn/Alexander-Schnabl
+                </a>
+
+                <a href="https://github.com/a1exprod" target="_blank"  title="GitHub">
+                    <i class="fab fa-github"></i>
+                    <br>Github/AS-MediaWorks
+                </a>
+
+                <a href="#" target="_blank" title="view location over google maps">
+                    <i class="fa-brands fa-instagram"></i>
+                    <br>Instagram@as-mediaworks
+                </a>
+            </div>
+            <div class="spacer"></div>
+        </aside>
+
+
+
+
+
+         <!-- Footer================================================== -->
+        <footer>
+            <a class="center" href="#">Imprint</a>
+            <a class="center" href="#">Privacy Policy</a>
+            
+            <div class="spacer"></div>
+            <p class="center">&copy; Alexander Schnabl</p>
+        </footer>
+
+
+
+    </body>
+</html>

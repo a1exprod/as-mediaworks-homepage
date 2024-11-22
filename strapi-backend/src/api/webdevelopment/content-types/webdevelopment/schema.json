@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webdevelopments",
+  "info": {
+    "singularName": "webdevelopment",
+    "pluralName": "webdevelopments",
+    "displayName": "webdevelopment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

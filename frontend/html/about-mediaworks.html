@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Nova theme" content="width=device-width, initial-scale=1">
+
+
+
+        <!--external stylesheets-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <!--internal stylesheets-->
+        <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="../css/responsive.css"/>
+        <link rel="stylesheet" href="../css/custom.css">
+        <link rel="stylesheet" href="../css/gsap/gsap-cardsSwapping.css">
+        <link rel="stylesheet" href="../css/gsap/gsap-scrollTriggerParalax.css">
+        <!--external FontAwesome Stylesheet-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    
+    
+        <!--external GSAP JavaScript Animation Plugins-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+        <!--internal GSAP JavaScript Animation Imports-->
+        <script src="../js/gsap/gsap-typewriter.js"></script>
+        <script src="../js/gsap/gsap-cardsSwapping.js"></script>
+        <script src="../js/gsap/gsap-scrollTriggerParalax.js"></script>
+        <script src="../js/gsap/gsap-countAnimation.js"></script>
+
+
+
+        <!--internal Strapi JavaScript fetch datas-->
+        <script src="../js/strapi-api/fetch-projects.js"></script>
+        <script src="../js/strapi-api/fetch-webdevelopment.js"></script>
+        <script src="../js/strapi-api/fetch-graphicsdesign.js"></script>
+        <script src="../js/strapi-api/fetch-blogs.js"></script>
+
+        
+
+        <link rel="shortcut icon" type="image/png" href="../favicon/tabicon.png"/>
+        <title>About: AS-MediaWorks</title>
+    </head>
+<!--#######################################################################################################################################-->
+    <body>
+
+    
+        <main class="hero-background">
+            <!-- Navigation================================================== -->
+            <div>
+                <img class="strips" src="../assets/images/strips.png">
+            </div>
+            <div class="container">
+                <!-- Menu================================================== -->
+                <div class="header-container header">
+                    <a class="navbar-brand logo" href="#"> <img class="logo" src="../assets/images/logo.svg"/> </a>
+                    <nav class="header-right">
+                        <a class="navbar-item" href="../index.html">Home</a>
+                        <a class="navbar-item" href="projects.html">Projects</a>
+                        <a class="navbar-item active" href="">About MediaWorks</a>
+                        <a class="navbar-item" href="alexander-schnabl.html">Alexander Schnabl</a>
+                    </nav>
+                </div>
+                
+                <!-- Hero-Section================================================== -->
+                <header class="hero row">
+                    <div class="hero-right col-sm-6 col-sm-6">
+                        <h1 class="header-headline bold text"><span class="color-black">About </span>AS-MediaWorks</h1>
+                        <p id="header-description">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6 col-sm-6">
+                        <img class="ipad-screen img-responsive as-mediaworks" alt="2smartphones" src="../img/illustrations/notebook.png"/>
+                    </div>
+                </header><!--hero-->
+            </div> <!--container-->
+        </main><!--hero-background-->
+
+
+
+        <!--CONTENT================================================== -->
+
+        <aside><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h4>Focus on:</h4>
+            <div class="spacer"></div>
+            <div class="hero-row">
+                <div class="hero-right col-sm-6 col-sm-6">
+                    <h3 class="field right">Web- & App Development</h3>
+                    <div class="field-icons">
+                        <aside class="cluster clusterGreat">
+                            <div class="circle clusterPieces"></div>
+                            <div class="owlHorned clusterPieces">
+                                <img class="scrollTriggerParalax" src="../img/illustrations/intro-projects.png" alt="notebook" />
+                            </div>
+                            <img class="dotsBlue clusterPieces" src="https://www.micelistudios.com/sandbox/scrolltrigger/imgs/dots_blue_494x434.svg" />
+                        </aside>
+                        
+                    </div>
+                </div>
+                <div class="hero-right col-sm-6 col-sm-6">
+                    <h3 class="field left">Media- & Graphics Designer</h3>
+                    <div class="field-icons">
+                        <aside class="cluster clusterBurrowing">
+                            <div class="clusterPieces owlBurrowing">
+                                <img class="scrollTriggerParalax" src="../img/illustrations/services-webdev-design.png">
+                            </div>
+                            <img class="clusterPieces dotsWhite" src="https://www.micelistudios.com/sandbox/scrolltrigger/imgs/dots_white_310x588.svg">
+                        </aside>
+                        
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <div class="spacer-screensize"></div>
+
+
+
+
+<!-- ------------
+        <aside>------------------------------------------------------------------------------------------------------------------------------------------------------------
+            <h4>Focus on:</h4>
+            <div class="hero-row">
+                <div class="hero-right col-sm-6 col-sm-6">
+                    <div class="field-icons">
+                        <img class="field" src="../img/illustrations/intro-projects.png" alt="notebook">
+                        <h3 class="field">Web- & App Development</h3>
+                    </div>
+                </div>
+                <div class="hero-right col-sm-6 col-sm-6">
+                    <div class="field-icons">
+                        <img class="field" src="../img/illustrations/services-webdev-design.png" alt="notebook">
+                        <h3 class="field">Media- & Graphics Design</h3>
+                    </div>
+                </div>
+            </div>
+        </aside>
+----------------- -->
+
+        <div class="spacer-screensize"></div>
+
+        <aside><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="titleGreathorned">
+                <p class="subheadline">
+                    Being a graphic designer and developer in one creates an ideal starting position because you combine both creative and technical understanding in one person. 
+                    This allows you to develop a well thought-out, visually appealing and technically functional solution right from the start, 
+                    without losing important details in the communication between design and development teams.
+                </p>
+            </div>
+        </aside>
+
+        
+
+        <section><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h2>Webdesign, Web- & App Development</h2>
+            <h3>Lets create your digital Presentation</h3>
+            <p>Your vision deserves more than just a presence—it needs impact. Together, we'll craft digital experiences that don't just look great but deliver results. 
+                Whether it's creating a bold first impression, showcasing your story,</p>
+
+            <table>
+                <tr><th>Landingpages</th></tr>
+                <tr><td class="intro">> Perfect for focused marketing campaigns, product launches, or promotions.</td></tr>
+                <tr><td>These pages are designed with a single goal in mind - to convert visitors into customers. 
+                    Clean, compelling, and optimized for maximum conversion. call-to-actions.
+                </td></tr>
+
+                <tr><th>Homepages</th></tr>
+                <tr><td class="intro">> Represent your business</td></tr>
+                <tr><td>It instantly capture attention, represent your business, and guide visitors through a seamless experience. I create homepages that are visually stunning and user-friendly, ensuring your message resonates from the first click.</td></tr>
+
+                <tr><th>Portfolio Websites</th></tr>
+                <tr><td class="intro">> Perfect to showcase your work and yourself for job applications. </td></tr>
+
+                <tr><th>Microsites</th></tr>
+                <tr><td class="intro">> A small Onepager to introduce your business, your product or yourself. </td></tr>
+
+                <tr><th></th></tr>
+            </table>
+
+            <h3>xx</h3>
+            <p>Lorem Ipsum</p>
+
+            <table>
+                <tr><th>Corporate Websites</th></tr>
+                <tr><td class="intro">> A digital face of your company</td></tr>
+                <tr><td>Blog, Onlineshop</td></tr>
+
+                <tr><th>Webapps</th></tr>
+                <tr><td class="intro">> Represent your business</td></tr>
+                <tr><td>Login, edit datasets, dashboards</td></tr>
+
+                <tr><th>Mobile Apps</th></tr>
+                <tr><td class="intro">> Adroid, Flutter </td></tr>
+            </table>
+
+
+
+
+        </section>
+
+
+        <section><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <h2>Media- & Graphics Design</h2>
+
+            
+            <h3>Brand Concept</h3>
+            <p>Lorem Ipsum</p>
+
+            <table>
+                <tr><th>Corporate Design and Corporate Identity (CICD)</th></tr>
+                <tr><td class="intro">> Screendesigns, Logo Design, Print Design Assets, Presentation Slides</td></tr>
+                <tr><td></td></tr>
+
+                <tr><th>Ad Illustration Design</th></tr>
+                <tr><td class="intro">> Infographics, Icons, Illustrations, 3D-Design</td></tr>
+                <tr><td></td></tr>
+
+                <tr><th>Print Designs</th></tr>
+                <tr><td class="intro">> Ad Banner, Stickers, Visitenkarte</td></tr>
+
+                <tr><th>Social Media & Screendesigns</th></tr>
+                <tr><td class="intro">> UI-Designs, technical content preperation, Social Media Designs</td></tr>
+            </table>
+
+        </section>
+
+        <aside><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <a href="projects.html">
+                <button class="center">View more projects</button>
+            </a>
+        </aside>
+
+
+
+
+
+        <!-- Footer================================================== -->
+        <footer>
+            <a class="center" href="#">Imprint</a>
+            <a class="center" href="#">Privacy Policy</a>
+                    
+            <div class="spacer"></div>
+            <p class="center">&copy; Alexander Schnabl</p>
+        </footer>
+        
+        
+        
+    </body>
+</html>

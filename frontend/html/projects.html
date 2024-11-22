@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Nova theme" content="width=device-width, initial-scale=1">
+
+
+
+        <!--external stylesheets-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <!--internal stylesheets-->
+        <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="../css/responsive.css"/>
+        <link rel="stylesheet" href="../css/custom.css">
+        <link rel="stylesheet" href="../css/gsap/gsap-cardsSwapping.css">
+        <link rel="stylesheet" href="../css/gsap/gsap-scrollTriggerParalax.css">
+        <!--external FontAwesome Stylesheet-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    
+    
+        <!--external GSAP JavaScript Animation Plugins-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+        <!--internal GSAP JavaScript Animation Imports-->
+        <script src="../js/gsap/gsap-typewriter.js"></script>
+        <script src="../js/gsap/gsap-cardsSwapping.js"></script>
+        <script src="../js/gsap/gsap-scrollTriggerParalax.js"></script>
+        <script src="../js/gsap/gsap-countAnimation.js"></script>
+
+
+
+        <!--internal Strapi JavaScript fetch datas-->
+        <script src="../js/strapi-api/fetch-projects.js"></script>
+
+        
+
+        <link rel="shortcut icon" type="image/png" href="../favicon/tabicon.png"/>
+        <title>Projects</title>
+    </head>
+<!--#######################################################################################################################################-->
+    <body>
+
+    
+        <main class="hero-background">
+            <!-- Navigation================================================== -->
+            <div>
+                <img class="strips" src="../assets/images/strips.png">
+            </div>
+            <div class="container">
+                <!-- Menu================================================== -->
+                <div class="header-container header">
+                    <a class="navbar-brand logo" href="#"> <img class="logo" src="../assets/images/logo.svg"/> </a>
+                    <nav class="header-right">
+                        <a class="navbar-item" href="../index.html">Home</a>
+                        <a class="navbar-item active" href="">Projects</a>
+                        <a class="navbar-item" href="about-mediaworks.html">About MediaWorks</a>
+                        <a class="navbar-item" href="alexander-schnabl.html">Alexander Schnabl</a>
+                    </nav>
+                </div>
+                
+                <!-- Hero-Section================================================== -->
+                <header class="hero row">
+                    <div class="hero-right col-sm-6 col-sm-6">
+                        <h1 class="header-headline bold text">My<br />Projects</h1>
+                        <h3 class="header-running-text color-white">AS-MediaWorks</h3>
+                        <h3 class="header-running-text color-black">Webdevelopment & Graphic Design</h3>
+                    </div>
+
+                    <div class="col-sm-6 col-sm-6">
+                        <img class="ipad-screen img-responsive" alt="2smartphones" src="../img/illustrations/intro-projects.png"/>
+                    </div>
+                </header><!--hero-->
+            </div> <!--container-->
+        </main><!--hero-background-->
+
+
+
+        <!--CONTENT================================================== -->
+
+        <aside>
+            <p class="subheadline center">The combination of graphic design and web development is crucial, because good design alone is not enough - it must also be implemented technically clean. </p>
+        </aside>
+        <section><!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="hero-row">
+                <h2>All Projects</h2>
+
+                
+                <div id="projects-container" class="project-grid"></div>
+                
+            </div>
+        </section>
+
+
+
+
+
+
+        <!-- Footer================================================== -->
+        <footer>
+            <a class="center" href="#">Imprint</a>
+            <a class="center" href="#">Privacy Policy</a>
+                    
+            <div class="spacer"></div>
+            <p class="center">&copy; Alexander Schnabl</p>
+        </footer>
+        
+        
+        
+    </body>
+</html>
